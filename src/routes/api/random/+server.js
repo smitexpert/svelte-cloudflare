@@ -2,6 +2,7 @@
 
 export const GET = (({ url }) => {
   return Response.json({
-    random: String(Math.random())
+    random: String(Math.random()),
+    name: "bPay"
   })
 })
